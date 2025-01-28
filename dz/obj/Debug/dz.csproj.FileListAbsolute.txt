@@ -1,0 +1,15 @@
+C:\Users\Accord\Desktop\dz\dz\dz\bin\Debug\dz.exe.config
+C:\Users\Accord\Desktop\dz\dz\dz\bin\Debug\dz.exe
+C:\Users\Accord\Desktop\dz\dz\dz\bin\Debug\dz.pdb
+C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\dz.csproj.AssemblyReference.cache
+C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\MainWindow.g.cs
+C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\App.g.cs
+C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\dz_MarkupCompile.cache
+C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\dz_MarkupCompile.lref
+C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\MainWindow.baml
+C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\dz.g.resources
+C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\dz.Properties.Resources.resources
+C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\dz.csproj.GenerateResource.cache
+C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\dz.csproj.CoreCompileInputs.cache
+C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\dz.exe
+C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\dz.pdb
