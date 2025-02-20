@@ -17,6 +17,14 @@
             <RowDefinition>
                 
             </RowDefinition>
+
+            <RowDefinition>
+
+            </RowDefinition>
+            <RowDefinition>
+
+            </RowDefinition>
+            
             <RowDefinition>
 
             </RowDefinition>
@@ -39,15 +47,20 @@
 
         <TextBox x:Name="Tovar" Grid.Column="0" Grid.Row="1" Margin="168,19,168,19"/>
 
-        <Button x:Name="AddProductButton" FontSize="24" Grid.Column="0" Grid.Row="4" Click="AddProductButton_Click">Добавить товар
+        <TextBox x:Name="Decription" Grid.Column="0" Grid.Row="5" Margin="168,18,168,10">
+
+        </TextBox>
+
+        <Button x:Name="AddProductButton" FontSize="24" Grid.Column="0" Grid.Row="6" Click="AddProductButton_Click">Добавить товар
 
         </Button>
 
-        <ListBox x:Name="List_Tovars" Grid.Column="0" Grid.Row="5">
+        <ListBox x:Name="List_Tovars" Grid.Column="0" Grid.Row="7">
 
         </ListBox>
         <TextBlock FontSize="24" Grid.Row="0" Grid.Column="0" Margin="336,10,336,10">Товар</TextBlock>
         <TextBlock FontSize="24" Grid.Row="2" Grid.Column="0" Margin="336,10,336,10">Цена</TextBlock>
-        
+        <TextBlock FontSize="24" Grid.Row="4" Grid.Column="0" Margin="336,10,336,10">Описание</TextBlock>
+
     </Grid>
 </Window>

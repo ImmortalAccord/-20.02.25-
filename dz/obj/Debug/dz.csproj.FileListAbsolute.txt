@@ -13,3 +13,13 @@ C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\dz.csproj.GenerateResource.cache
 C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\dz.csproj.CoreCompileInputs.cache
 C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\dz.exe
 C:\Users\Accord\Desktop\dz\dz\dz\obj\Debug\dz.pdb
+C:\Users\Accord\Desktop\Соколов\Visual Studio\dz\dz\dz\obj\Debug\dz.csproj.AssemblyReference.cache
+C:\Users\Accord\Desktop\Соколов\Visual Studio\dz\dz\dz\obj\Debug\authwindow.g.cs
+C:\Users\Accord\Desktop\Соколов\Visual Studio\dz\dz\dz\obj\Debug\MainWindow.g.cs
+C:\Users\Accord\Desktop\Соколов\Visual Studio\dz\dz\dz\obj\Debug\App.g.cs
+C:\Users\Accord\Desktop\Соколов\Visual Studio\dz\dz\dz\obj\Debug\dz_Content.g.cs
+C:\Users\Accord\Desktop\Соколов\Visual Studio\dz\dz\dz\obj\Debug\dz_MarkupCompile.cache
+C:\Users\Accord\Desktop\Соколов\Visual Studio\dz\dz\dz\obj\Debug\dz_MarkupCompile.lref
+C:\Users\Accord\Desktop\Соколов\Visual Studio\dz\dz\dz\obj\Debug\dz.pdb
+C:\Users\Accord\Desktop\Соколов\Visual Studio\dz\dz\dz\obj\Debug\DataGrid.g.cs
+C:\Users\Accord\Desktop\Соколов\Visual Studio\dz\dz\dz\obj\Debug\Window1.g.cs

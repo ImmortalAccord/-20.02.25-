@@ -12,36 +12,66 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using dz;
 
 namespace dz
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        private ShopEntities dbContext;
+        private string Description;
+
         public MainWindow()
         {
             InitializeComponent();
+            dbContext = new ShopEntities();
+            LoadProducts();
         }
 
-        private List<IProduct> _products = new List<IProduct>();
+        private void LoadProducts()
+        {
+            List_Tovars.ItemsSource = dbContext.Products.ToList();
+        }
+
         private void AddProductButton_Click(object sender, RoutedEventArgs e)
         {
+            try
             {
-                var newProduct = new Product();
-                newProduct.Name = Tovar.Text;
-                if (decimal.TryParse(Price.Text, out decimal price))
+                string productName = Tovar.Text;
+                if (string.IsNullOrEmpty(productName))
                 {
-                    newProduct.Price = price;
-                    _products.Add(newProduct);
-                    List_Tovars.ItemsSource = null;
-                    List_Tovars.ItemsSource = _products;
+                    MessageBox.Show("Введите название товара.");
+                    return;
                 }
-                else
+
+                if (!decimal.TryParse(Price.Text, out decimal productPrice))
                 {
-                    MessageBox.Show("Неправильный ввод цены");
+                    MessageBox.Show("Введите корректную цену товара.");
+                    return;
                 }
+
+                TextBox productNameTextBox = (TextBox)Tovar;
+                string TovarName = Tovar.Text;
+
+                var newProduct = new Product
+                {
+                    Name = productName,
+                    Price = productPrice,
+                    Description = Description
+                };
+
+                dbContext.Products.Add(newProduct);
+                dbContext.SaveChanges();
+
+                LoadProducts();
+                Tovar.Clear();
+                Price.Clear();
+                TextBox Name = (TextBox)Tovar;
+                productNameTextBox.Clear();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка при добавлении товара: {ex.Message}");
             }
         }
     }
